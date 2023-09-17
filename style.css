@@ -1,0 +1,311 @@
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+   overflow-x: hidden;
+   display: flex;
+   justify-content: center;
+
+}
+
+header {
+  width: 100%;
+  height: 890px;
+  background-image: url(../IMAGES/blue_bg.png);
+  background-repeat: no-repeat;
+  background-size: 100% 85%;
+  position: relative;
+  top: 0px;
+  
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+
+.Nav-Left {
+    display: flex;
+    align-items: center;
+    padding-left: 60px;
+    margin-top: 50px;
+}
+
+.Nav-Left a {
+    margin: 15px;
+    text-decoration: none;
+    font-family: 'poppins';
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: black;
+}
+
+.Nav-Left a:hover {
+   color: #6e2167;
+   text-decoration: underline #96318D 3px ;
+   transition: .5s;
+}
+
+.Nav-Left img {
+    display: flex;
+    align-items: center;
+    width: 150px;
+}
+
+.Nav-Right {
+    display: flex;
+    align-items: center;
+    margin-right: 80px;
+    margin-top: 45px;
+}
+
+button {
+  background-color: rgb(210, 210, 210);
+  width: 110px;
+  height: 35px;
+  border-radius: 60px;
+  font-size: 0.8rem;
+  border: none;
+}
+
+button:hover {
+   background-color: rgb(247, 247, 247);
+}
+
+.sec-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.left-1 {
+  position: absolute;
+  top: 40%;
+  left: 8%;
+}
+
+.left-1 h1 {
+  font-family: 'Varela Round';
+  font-size: 4.2rem;
+}
+
+.left-1 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 2rem;
+  position: relative;
+  top: 30px;
+}
+
+.left-1 span {
+  color: #932d8b;
+}
+
+.right-1 {
+  position: relative;
+  left: 13%;
+ 
+
+}
+
+.zero {
+  position: absolute;
+  left: 43%;
+  top: -15%;
+}
+
+.one {
+  position: absolute;
+  left: 52%;
+  top: -10%;
+}
+
+.two {
+  position: absolute;
+  top: 115%;
+  left: 50%;
+}
+
+.three {
+  position: relative;
+  top: 120%;
+  left: -40%;
+
+}
+
+.sec-2 {
+  height: 100vh;
+  width: 100%;
+}
+
+.bg-2 {
+  position: absolute;
+  left: 17%;
+  top: 105%;
+}
+
+.c-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: center;
+}
+
+
+.c-1 {
+  position: absolute;
+  top: 137%;
+}
+
+.c-1 h2 {
+  font-family: 'varela round';
+  font-size: 1.7rem;
+}
+
+.c-1 p {
+  font-family: 'varela round';
+  font-size: 1.5rem;
+}
+
+.c-2 {
+  position: absolute;
+  top: 116%;
+  left: 5%;
+}
+
+.c-2 h2 {
+  font-family: 'varela round';
+  font-size: 1.7rem;
+}
+
+
+
+.c-2 p {
+  font-family: 'varela round';
+  font-size: 1.5rem;
+}
+
+.c-3 {
+  position: absolute;
+  top: 173%;
+  right: 15%;
+}
+
+.c-3 h2 {
+  font-family: 'varela round';
+  font-size: 1.7rem;
+}
+
+
+.c-3 p {
+  font-family: 'varela round';
+  font-size: 1.5rem;
+}
+
+.c-4 {
+  position: absolute;
+  top: 170%;
+  left: 10%;
+  text-align: start;
+  font-family: 'poppins';
+  color: white;
+}
+
+.c-4 h2 {
+  position: absolute;
+  top: 30%;
+  left:24%;
+  font-size: 1.3rem;
+}
+
+.c-4 span {
+  font-size: 3.5rem;
+}
+
+.sec-3 {
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  top: 50%;
+  left: 20%;
+}
+
+.sc{
+  position: relative;
+  text-align: center;
+  right: 22%;
+  font-size: 1.4rem;
+  font-family: 'poppins';
+}
+
+.sc p{
+  margin-top: 30px;
+  color: rgba(69, 72, 74, 0.749);
+
+}
+
+.end {
+  background-image: url(../IMAGES/Group\ 1131.png);
+  background-repeat: no-repeat;
+  height: 83vh;
+  width: 100%;
+  position: relative;
+  bottom: 0px;
+}
+
+.left-4 {
+  align-items: center;
+  text-align: start;
+  position: relative;
+  top: 60%;
+  left: 5%;
+  
+}
+
+.icons-1 {
+  position: relative;
+  right: 70px;
+  top: 30px;
+  display: flex;
+}
+
+.ic{
+  position: relative;
+  right: 180px;
+}
+
+.icons a {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1.5rem;
+  margin: 20px;
+  font-family: 'poppins';
+}
+
+.icons a:hover {
+  color: #571f52;
+}
+
+
+
+.icons-2 img {
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+  margin: 10px;
+  display: inline;
+
+}
+
+
+.right-4 img{
+  position: relative;
+  left: 50%;
+  top: 5px;
+ 
+}
