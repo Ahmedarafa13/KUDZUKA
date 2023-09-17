@@ -10,6 +10,8 @@ body {
    overflow-x: hidden;
    display: flex;
    justify-content: center;
+   position: relative;
+   left: 30px;
 
 }
 
