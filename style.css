@@ -10,13 +10,12 @@ body {
    overflow-x: hidden;
    display: flex;
    justify-content: center;
-   position: relative;
-   rightt: 0px;
+   
 
 }
 
 header {
-  width: 100%;
+  width: 120%;
   height: 890px;
   background-image: url(../IMAGES/blue_bg.png);
   background-repeat: no-repeat;
